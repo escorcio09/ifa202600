@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário de Bordo do Projeto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Uma Web mais acessível</h1>
+        <p>Acompanhe nosso trabalho desenvolvido pela turma do 2°A.</p>
+        
+        <button id="btn-ouvir">🔊 Ouvir resumos</button>
+        <button id="btn-parar" style="display: none;">⏹️ Parar leitura</button>
+    </header>
+
+    <main class="grid-resumos">
+        <section class="cartao-resumo" aria-labelledby="resumo-dia1">
+            <h2 id="resumo-dia1">Dia 1: O Começo de Tudo</h2>
+            <p><strong>Data:</strong> 27 de Julho de 2026.</p>
+            <p>Resumo: Hoje foi o dia de introdução ao trabalho, e divisão dos grupos.</p>
+            <a class="btn-detalhes" href="dia1.html">Acessar detalhes e fotos do Dia 1</a>
+        </section>
+
+        <section class="cartao-resumo" aria-labelledby="resumo-dia2">
+            <h2 id="resumo-dia2">Dia 2: Detalhes e Pintura</h2>
+            <p><strong>Data:</strong> 31 de Julho de 2026.</p>
+            <p>Resumo: Lixamos a estrutura de madeira e aplicamos a primeira mão de tinta para proteção.</p>
+            <a class="btn-detalhes" href="dia2.html">Acessar detalhes e fotos do Dia 2</a>
+        </section>
+
+      
+        <!-- Resumo do Dia 3 -->
+        <section class="cartao-resumo" aria-labelledby="resumo-dia3">
+            <h2 id="resumo-dia3">Dia 3: Montagem Final</h2>
+            <p><strong>Data:</strong> 01 de Agosto de 2026.</p>
+            <p>Resumo: Em breve! Aqui colocaremos o resumo do que faremos no terceiro dia.</p>
+            <a class="btn-detalhes" href="dia3.html">Acessar detalhes e fotos do Dia 3</a>
+        </section>
+
+        <!-- Resumo do Dia 4 -->
+        <section class="cartao-resumo" aria-labelledby="resumo-dia4">
+            <h2 id="resumo-dia4">Dia 4: Testes e Ajustes</h2>
+            <p><strong>Data:</strong> Em breve.</p>
+            <p>Resumo: Aqui colocaremos o resumo dos testes físicos e ajustes que faremos na estrutura.</p>
+            <a class="btn-detalhes" href="dia4.html">Acessar detalhes e fotos do Dia 4</a>
+        </section>
+
+        <!-- Resumo do Dia 5 -->
+        <section class="cartao-resumo" aria-labelledby="resumo-dia5">
+            <h2 id="resumo-dia5">Dia 5: Finalização e Resultado</h2>
+            <p><strong>Data:</strong> Em breve.</p>
+            <p>Resumo: O grande dia! Resumo da limpeza da oficina, toques finais e o resultado do projeto pronto.</p>
+            <a class="btn-detalhes" href="dia5.html">Acessar detalhes e fotos do Dia 5</a>
+        </section>
+        </section>
+        
+        </main>
+
+    <footer>
+        <p>Desenvolvido com foco em acessibilidade por Felipe Escorcio e Bernardo Arthur.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<div class="controles-fonte">
+    <button id="btn-aumentar" type="button" aria-label="Aumentar tamanho do texto">A+</button>
+    <button id="btn-diminuir" type="button" aria-label="Diminuir tamanho do texto">A-</button>
+    <button id="btn-resetar" type="button" aria-label="Restaurar tamanho normal do texto">A</button>
+</div>
