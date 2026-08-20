@@ -61,3 +61,64 @@
     outline: 3px solid #0004ec;
     background-color: #2262da;
 }
+/* --- CENTRALIZAÇÃO GERAL DO SITE --- */
+
+/* Centraliza os blocos principais na tela e define o alinhamento de texto */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* Centraliza horizontalmente os blocos header, main e footer */
+    text-align: center;     /* Centraliza todos os títulos, parágrafos e textos */
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Limita a largura do conteúdo para não espalhar nas bordas de telas grandes */
+header, main, footer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
+}
+
+/* Estilização da caixa principal */
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Centraliza os botões e links do cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Alinha elementos dentro de contêineres de botões lado a lado no centro */
+.controles, .controles-fonte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Centraliza imagens e suas legendas */
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
